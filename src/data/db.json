@@ -1,0 +1,68 @@
+{
+  "juice": [
+    {
+      "id": 1,
+      "img": "../src/assets/j1.jpg",
+      "name": "vodka cranberry drink",
+      "price": 120,
+      "desc": "the western drink of america and these will deserve the best drinks and these one of the best drinks if you want some different then you go and impliment the best ever test in your area also lorem ipsum dolar emmet the best ever fill you will try in all other ways",
+      "rating": 4.4
+    },
+    {
+      "id": 2,
+      "img": "../src/assets/j2.jpg",
+      "name": "cucumber lamonade...",
+      "price": 140,
+      "desc": "the drink of taste of these will deserve the best drinks and these one of the best drinks if you want some different then you go and impliment the best ever test in your area also lorem ipsum dolar emmet the best ever fill you will try in all other ways",
+      "rating": 4.8
+    },
+    {
+      "id": 3,
+      "img": "../src/assets/j3.jpg",
+      "name": "malibu and orange juice",
+      "price": 110,
+      "desc": "the traditional drinks will offer the best services in the world and these one of the best drinks if you want some different then you go and impliment the best ever test in your area also lorem ipsum dolar emmet the best ever fill you will try in all other ways",
+      "rating": 3.8
+    },
+    {
+      "id": 4,
+      "img": "../src/assets/j4.jpg",
+      "name": "easy ganaga jamuna juice",
+      "price": 160,
+      "desc": "the  drinks of easy ganga jamuna juice  will very popular in india and these one of the best drinks if you want some different then you go and impliment the best ever test in your area also lorem ipsum dolar emmet the best ever fill you will try in all other ways",
+      "rating": 5.0
+    },
+    {
+      "id": 5,
+      "img": "../src/assets/j5.jpg",
+      "name": "blended smoothie cocktail",
+      "price": 115,
+      "desc": "they always know for their taste and smooth effect in your shake and these one of the best drinks if you want some different then you go and impliment the best ever test in your area also lorem ipsum dolar emmet the best ever fill you will try in all other ways",
+      "rating": 3.2
+    },
+    {
+      "id": 6,
+      "img": "../src/assets/j6.jpg",
+      "name": "green thumb juice",
+      "price": 135,
+      "desc": "the taste of this juice is osm and even who don't try plz try and these one of the best drinks if you want some different then you go and impliment the best ever test in your area also lorem ipsum dolar emmet the best ever fill you will try in all other ways",
+      "rating": 4.2
+    },
+    {
+      "id": 7,
+      "img": "../src/assets/j7.jpg",
+      "name": "screwdriver cocktail",
+      "price": 105,
+      "desc": "smooth and mouth freshing vibe will creating when we drink it. and these one of the best drinks if you want some different then you go and impliment the best ever test in your area also lorem ipsum dolar emmet the best ever fill you will try in all other ways",
+      "rating": 3.8
+    },
+    {
+      "id": 8,
+      "img": "../src/assets/j8.jpg",
+      "name": "taquila and grapefruit",
+      "price": 145,
+      "desc": "extra re-freshing juice and these time you will get full refreshment and these one of the best drinks if you want some different then you go and impliment the best ever test in your area also lorem ipsum dolar emmet the best ever fill you will try in all other ways",
+      "rating": 4.8
+    }
+  ]
+}
