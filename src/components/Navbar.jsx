@@ -28,11 +28,15 @@ const Navbar = () => {
           </Link>
         </div>
         <ul className="md:flex hidden items-center gap-8 text-xl text-white capitalize ">
-          <li>home</li>
-          <li>about</li>
-          <li>services</li>
-          <li>pages</li>
-          <li>contact</li>
+          <li>
+            <Link to={"/"}>home</Link>
+          </li>
+          <li>
+            <Link to={"/about"}>about</Link>
+          </li>
+          <li>
+            <Link to={"/news"}>news</Link>
+          </li>
         </ul>
         <div className="flex items-center bg-white px-4 py-2 rounded-full gap-2">
           <Link to={"/cart"} className="flex items-center gap-2">
