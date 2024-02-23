@@ -9,7 +9,7 @@ import {
 import toast from "react-hot-toast";
 
 const CartItems = ({ cartItem }) => {
-  const { img, price, id, name, qty } = cartItem;
+  // const { img, price, id, name, qty } = cartItem;
   const dispatch = useDispatch();
   const handleDelete = (id) => {
     dispatch(removeToCart(id));

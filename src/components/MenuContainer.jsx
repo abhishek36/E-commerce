@@ -9,7 +9,6 @@ import anim4 from "../assets/animation4.png";
 import pattern from "../assets/pattern.png";
 import MenuItem from "./MenuItem";
 
-
 const MenuContainer = ({ setModal }) => {
   const { alljuice, isLoading } = useSelector((state) => state.juice);
   const dispatch = useDispatch();

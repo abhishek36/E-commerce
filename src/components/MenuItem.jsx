@@ -2,7 +2,6 @@ import React from "react";
 import { IoStarSharp } from "react-icons/io5";
 import { Link } from "react-router-dom";
 import { FaEye } from "react-icons/fa";
-
 const MenuItem = ({ juice }) => {
   const { img, name, price, id } = juice;
 
