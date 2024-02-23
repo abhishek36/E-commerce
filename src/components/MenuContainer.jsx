@@ -19,7 +19,7 @@ const MenuContainer = ({ setModal }) => {
   if (isLoading) {
     return <h1>loading...</h1>;
   }
-  
+
   return (
     <>
       <div className="pt-[80px] pb-[100px] w-full bg-[#ff9fac] mt-[100px] relative">
@@ -43,22 +43,22 @@ const MenuContainer = ({ setModal }) => {
         <img
           src={anim}
           alt=""
-          className="absolute md:top-4 md:w-[200px] animate-bounce-slow"
+          className="absolute md:top-4 md:w-[200px] hidden animate-bounce-slow"
         />
         <img
           src={anim2}
           alt=""
-          className="absolute md:top-4 right-0 md:w-[150px]"
+          className="absolute md:top-4 right-0 md:w-[150px] hidden"
         />
         <img
           src={anim3}
           alt=""
-          className="absolute md:bottom-0 left-[-50px] md:w-[180px]"
+          className="absolute md:bottom-0 left-[-50px] md:w-[180px] hidden"
         />
         <img
           src={anim4}
           alt=""
-          className="absolute md:bottom-0 animate-bounce-slow duration-1000 right-0 md:w-[150px]"
+          className="absolute md:bottom-0 animate-bounce-slow duration-1000 right-0 md:w-[150px] hidden"
         />
         <div
           style={{ backgroundImage: `url(${pattern})` }}
