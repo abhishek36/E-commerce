@@ -25,7 +25,7 @@ const Banner = () => {
         </div>
         <div
           style={{ backgroundImage: `url(${pattern})` }}
-          className="absolute md:bottom-[-2px] bottom-[-5px]  w-full h-[145px]"
+          className="absolute md:bottom-[-2px] bottom-[-4px]  w-full h-[145px]"
         ></div>
       </div>
     </>
