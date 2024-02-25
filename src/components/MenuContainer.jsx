@@ -43,22 +43,22 @@ const MenuContainer = ({ setModal }) => {
         <img
           src={anim}
           alt=""
-          className="absolute md:top-4 md:w-[200px] hidden animate-bounce-slow"
+          className="absolute md:top-4 md:w-[200px] md:block hidden animate-bounce-slow"
         />
         <img
           src={anim2}
           alt=""
-          className="absolute md:top-4 right-0 md:w-[150px] hidden"
+          className="absolute top-4 right-0 md:w-[150px] md:block hidden"
         />
         <img
           src={anim3}
           alt=""
-          className="absolute md:bottom-0 left-[-50px] md:w-[180px] hidden"
+          className="absolute md:bottom-0 left-[-50px] md:block md:w-[180px] hidden"
         />
         <img
           src={anim4}
           alt=""
-          className="absolute md:bottom-0 animate-bounce-slow duration-1000 right-0 md:w-[150px] hidden"
+          className="absolute md:bottom-0 animate-bounce-slow duration-1000 right-0 md:w-[150px] md:block hidden"
         />
         <div
           style={{ backgroundImage: `url(${pattern})` }}
