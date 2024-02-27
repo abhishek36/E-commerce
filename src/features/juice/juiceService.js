@@ -1,4 +1,4 @@
-const api_url = '/juice'
+const api_url = '/juice/'
 
 const getjuice = async () => {
   const response = await fetch(api_url);
