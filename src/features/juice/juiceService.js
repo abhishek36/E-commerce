@@ -1,4 +1,4 @@
-const api_url = '/juice'
+const api_url = "https://e-commerce-pgmt.onrender.com/juice";
 const getjuice = async () => {
   const response = await fetch(api_url);
   const data = await response.json();
@@ -6,7 +6,7 @@ const getjuice = async () => {
 };
 
 const getsinglejuice = async (id) => {
-  const response = await fetch(api_url +'/'+ id);
+  const response = await fetch(api_url + "/" + id);
   const data = await response.json();
   return data;
 };
