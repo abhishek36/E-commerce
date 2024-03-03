@@ -8,6 +8,7 @@ import anim3 from "../assets/animation3.png";
 import anim4 from "../assets/animation4.png";
 import pattern from "../assets/pattern.png";
 import MenuItem from "./MenuItem";
+import { PulseLoader } from "react-spinners";
 
 const MenuContainer = ({ setModal }) => {
   const { alljuice, isLoading } = useSelector((state) => state.juice);
@@ -17,7 +18,15 @@ const MenuContainer = ({ setModal }) => {
   }, []);
 
   if (isLoading) {
-    return <h1>loading...</h1>;
+    return (
+      <h1 className="flex justify-center align-middle">
+        <PulseLoader
+          loading={true}
+          color="pink"
+          style={{ paddingBlock: "20px" }}
+        />
+      </h1>
+    );
   }
 
   return (
