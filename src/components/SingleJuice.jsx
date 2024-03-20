@@ -9,12 +9,10 @@ import gits from "../assets/gits.png";
 import hours from "../assets/hours.png";
 import { addToCart } from "../features/cart/cartSlice";
 import toast from "react-hot-toast";
-import { FaCheck } from "react-icons/fa";
 
 const SingleJuice = () => {
   const { singleJuice, isLoading } = useSelector((state) => state.juice);
-  const { img, price, id, name, desc, rating, addon } = singleJuice;
-  const [add, setAdd] = useState();
+  const { img, price, id, name, desc, rating } = singleJuice;
   const dispatch = useDispatch();
   const params = useParams();
   useEffect(() => {
