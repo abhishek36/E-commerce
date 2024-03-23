@@ -31,7 +31,7 @@ const MenuContainer = ({ setModal }) => {
 
   return (
     <>
-      <div className="pt-[80px] pb-[100px] w-full bg-[#ff9fac] mt-[100px] relative">
+      <div className="pt-[80px] pb-[150px] w-full bg-[#ff9fac] mt-[100px] relative">
         <div className="flex items-center justify-center flex-col">
           <img src={glass} alt="" />
           <h3

@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-.slick-slide>div {
+body {
+    overflow-x: hidden;
+}
+
+.card .slick-slide>div {
     margin: 0 20px;
 }
+
+/* * {
+    border: 1px solid red;
+} */

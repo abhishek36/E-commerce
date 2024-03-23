@@ -31,6 +31,10 @@ export default {
       animation: {
         "bounce-slow": "bounce 2s linear infinite",
       },
+      backgroundImage: {
+        banner1: "url('..src/../assets/banner1.jpg')",
+        banner2: "url('..src/../assets/banner2.jpg')",
+      },
     },
   },
   plugins: [],

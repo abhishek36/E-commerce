@@ -18,7 +18,7 @@ const Navbar = () => {
   return (
     <>
       <nav
-        className={`fixed bg-[#FFB9C3] top-0 z-10 left-0 right-0 px-5 py-3 flex items-center justify-between ${
+        className={`fixed top-0 z-10 left-0 right-0 px-5 py-3 flex items-center justify-between overflow-x-hidden w-full ${
           fix ? "bg-[#FF9FAC] duration-500 z-20" : null
         }`}
       >
