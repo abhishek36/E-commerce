@@ -18,7 +18,7 @@ const Cart = () => {
   }
   return (
     <>
-      <div className="pt-[150px]">
+      <div className="py-[150px] bg-[#91D7CF]">
         <div className="flex items-center gap-2 justify-center">
           <FaShoppingBag size={40} className="text-[#FB667A]" />
           <h4 className="text-2xl capitalize">my cart</h4>

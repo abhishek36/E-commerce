@@ -36,7 +36,7 @@ const SingleJuice = () => {
   }
   return (
     <>
-      <div className="mt-[150px] w-full">
+      <div className="py-[150px] w-full bg-[#FF9FAC] text-white">
         <div className="max-w-[1000px] px-2 md:flex mx-auto">
           <div className="w-[35%] p-2 border rounded-md">
             <img
@@ -55,7 +55,7 @@ const SingleJuice = () => {
             </p>
             <button
               onClick={handleCart}
-              className="bg-[#FF9FAC] text-white font-medium capitalize px-3 flex items-center gap-2 py-3 rounded-md my-2 text-xl hover:bg-pink-300 duration-500"
+              className="bg-[#c16571] text-white font-medium capitalize px-3 flex items-center gap-2 py-3 rounded-md my-2 text-xl hover:bg-pink-300 duration-500"
             >
               add to cart
               <LiaShoppingCartSolid size={25} />
