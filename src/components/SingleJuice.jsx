@@ -9,6 +9,7 @@ import gits from "../assets/gits.png";
 import hours from "../assets/hours.png";
 import { addToCart } from "../features/cart/cartSlice";
 import toast from "react-hot-toast";
+import { PulseLoader } from "react-spinners";
 
 const SingleJuice = () => {
   const { singleJuice, isLoading } = useSelector((state) => state.juice);
@@ -32,11 +33,19 @@ const SingleJuice = () => {
   };
 
   if (isLoading) {
-    return <h1>loading...</h1>;
+    return (
+      <h1 className="flex justify-center align-middle py-20">
+        <PulseLoader
+          loading={true}
+          color="pink"
+          style={{ paddingBlock: "20px" }}
+        />
+      </h1>
+    );
   }
   return (
     <>
-      <div className="py-[150px] w-full bg-[#FF9FAC] text-white">
+      <div className="py-[150px] w-full bg-[#ff9face5] text-white">
         <div className="max-w-[1000px] px-2 md:flex mx-auto">
           <div className="w-[35%] p-2 border rounded-md">
             <img
@@ -50,12 +59,12 @@ const SingleJuice = () => {
             <p className="text-xl capitalize py-2">rating: {rating}</p>
             <p className="text-[17px]">{desc}...</p>
 
-            <p className="text-2xl capitalize py-1 border-t border-[#aaa] my-3">
+            <p className="text-2xl capitalize py-1 border-t border-[#dadada] my-3">
               price: ₹{price}
             </p>
             <button
               onClick={handleCart}
-              className="bg-[#c16571] text-white font-medium capitalize px-3 flex items-center gap-2 py-3 rounded-md my-2 text-xl hover:bg-pink-300 duration-500"
+              className="bg-[#ef497e] text-white font-medium capitalize px-3 flex items-center gap-2 py-3 rounded-md my-2 text-xl hover:bg-pink-300 duration-500"
             >
               add to cart
               <LiaShoppingCartSolid size={25} />

@@ -1,7 +1,4 @@
 import React from "react";
-import banner from "../assets/banner2.jpg";
-import banner1 from "../assets/banner1.jpg";
-
 import pattern from "../assets/pattern.png";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
