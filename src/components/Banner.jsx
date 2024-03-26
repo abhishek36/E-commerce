@@ -19,7 +19,7 @@ const Banner = () => {
   return (
     <>
       <div>
-        <Slider {...settings} className="slider-container">
+        <Slider {...settings} className="slider-container overflow-x-hidden">
           <div
             // style={{ backgroundImage: `url(${banner})` }}
             className=" bg-banner1  relative  md:h-[110vh] h-[500px]  bg-no-repeat bg-cover bg-center"
